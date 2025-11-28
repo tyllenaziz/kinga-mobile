@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+this is the installation link  https://expo.dev/accounts/tyllen001/projects/kinga-pest-control/builds/2ccfaa3a-8250-45dc-be1d-8898d4634232
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 📱 Kinga - Mobile App
 
-## Get started
+A cross-platform mobile application built for farmers to detect crop pests in real-time using AI. Built with React Native and Expo.
 
-1. Install dependencies
+## ✨ Key Features
+*   **📸 Scan & Analyze:** Capture images via Camera or Gallery to detect pests instantly.
+*   **🗣️ Bilingual Support:** Full support for **English** and **Swahili**, including Text-to-Speech audio advice.
+*   **🔐 User Accounts:** Login, Signup, and OTP Verification.
+*   **👨‍🌾 Expert Support:** Direct "Chat with Expert" button (WhatsApp Integration).
+*   **📜 History:** View past scans and cloud-stored records.
+*   **📚 Detailed Info:** View Causes, Effects, and Solutions for every pest.
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tech Stack
+*   **Framework:** React Native (Expo)
+*   **Language:** TypeScript / JavaScript
+*   **UI Library:** React Native Paper
+*   **Networking:** Axios
+*   **Build Tool:** EAS (Expo Application Services)
 
-2. Start the app
+## 🚀 How to Run
 
-   ```bash
-   npx expo start
-   ```
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/kinga-mobile.git
+    cd kinga-mobile
+    ```
 
-In the output, you'll find options to open the app in a
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+3.  **Start the App**
+    ```bash
+    npx expo start
+    ```
+    *Scan the QR code with the **Expo Go** app on your phone.*
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+4.  **Build Android APK**
+    ```bash
+    npm install -g eas-cli
+    eas build -p android --profile preview
+    ```
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📂 Configuration
+The app connects to the Kinga Backend hosted on Render. You can change the `API_URL` in `app/(tabs)/index.tsx`.
