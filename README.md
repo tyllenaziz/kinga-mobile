@@ -1,4 +1,4 @@
-this is the installation link  https://expo.dev/accounts/tyllen001/projects/kinga-pest-control/builds/2ccfaa3a-8250-45dc-be1d-8898d4634232
+this is the installation link  https://expo.dev/accounts/tyllen001/projects/kinga-pest-control/builds/f584abe6-ded7-4c71-a986-12799741f1ce
 
 # 📱 Kinga - Mobile App
 
